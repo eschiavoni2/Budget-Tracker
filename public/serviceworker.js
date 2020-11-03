@@ -2,9 +2,16 @@
 const CACHE_NAME = "static-cache-v2";
 const DATA_CACHE_NAME = "data-cache-v1";
 
-const FilesToCache = [
-  "/index.html"
-];
+const iconSizes = ["192", "512"];
+const iconFiles = iconSizes.map(
+  (size) => `/assets/images/icons/icon-${size}x${size}.png`
+);
+
+const staticFilesToPreCache = [
+  "/",
+  "/index.js",
+  "/manifest.webmanifest",
+].concat(iconFiles);
 
 
 // install
@@ -39,9 +46,8 @@ self.addEventListener("activate", function(evt) {
 
 // fetch
 self.addEventListener("fetch", function(evt) {
-  if (evt.request.url.includes("/api/")) {
-    console.log('[Service Worker] Fetch (data)')
-
+  const {url} = evt.request;
+  if (url.includes("/bulk") {
     evt.respondWith(
       caches.open(DATA_CACHE_NAME).then(cache => {
         return fetch(evt.request)
