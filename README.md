@@ -18,7 +18,7 @@ When brought back online:
   * Offline entries should be added to tracker.
 
 ## Deployed Link
-![Budget-Tracker](https://serene-peak-27861.herokuapp.com/)  
+[Budget-Tracker](https://serene-peak-27861.herokuapp.com/)  
 
 ## User Story
 AS AN avid traveller
