@@ -22,10 +22,12 @@
     "compression": "^1.7.4",
     "express": "^4.17.1",
     "lite-server": "^2.5.4",
+    "mongodb": "^4.13.0",
     "mongoose": "^5.10.11",
     "morgan": "^1.10.0"
   },
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "webpack-pwa-manifest": "^4.2.0"
   }
 }
