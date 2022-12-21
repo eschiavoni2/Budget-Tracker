@@ -18,7 +18,7 @@ When brought back online:
   * Offline entries should be added to tracker.
 
 ## Deployed Link
-[Budget-Tracker](https://serene-peak-27861.herokuapp.com/)  
+[Budget-Tracker]([https://eschiavoni2.github.io/Budget-Tracker/])  
 
 ## User Story
 AS AN avid traveller
@@ -35,3 +35,6 @@ Giving users a fast and easy way to track their money is important, but allowing
 ## Created by
 Erika Zibelnik
 
+---
+permalink: /index.html
+---
