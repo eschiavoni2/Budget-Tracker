@@ -14,7 +14,7 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.createConnection(process.env.MONGODB_URI || "mongodb://localhost/budget", {
+mongoose.createConnection(process.env.MONGODB_URI || "mongodb://localhost/budget" || "https://eschiavoni2.github.io/Budget-Tracker/", {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
