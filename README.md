@@ -34,7 +34,3 @@ Giving users a fast and easy way to track their money is important, but allowing
 
 ## Created by
 Erika Zibelnik
-
----
-permalink: /index.html
----
