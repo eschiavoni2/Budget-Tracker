@@ -1,13 +1,13 @@
 const FILES_TO_CACHE = [
-    "./", 
-    "./index.html", 
-    "./index.js", 
-    "./service-worker.js", 
-    "./manifest.webmanifest", 
-    "./styles.css", 
-    "./db.js",
-    "./icons/icon-192x192.png",
-    "./icons/icon-512x512.png"
+    "/Budget-Tracker/", 
+    "/Budget-Tracker/index.html", 
+    "/Budget-Tracker/index.js", 
+    "/Budget-Tracker/service-worker.js", 
+    "/Budget-Tracker/manifest.webmanifest", 
+    "/Budget-Tracker/styles.css", 
+    "/Budget-Tracker/db.js",
+    "/Budget-Tracker/icons/icon-192x192.png",
+    "/Budget-Tracker/icons/icon-512x512.png"
 ];
 
 const CACHE_NAME = "static-cache-v2";
